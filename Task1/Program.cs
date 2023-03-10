@@ -4,7 +4,7 @@ void Method1()
     Console.WriteLine("Автор ...");
 }
 
-// Method1();
+Method1();
 
 
 
@@ -15,7 +15,7 @@ void Method2(string msg)
     Console.WriteLine(msg);
 }
 
-// Method2(msg:"Текст сообщения ");
+Method2(msg:"Текст сообщения ");
 
 void Method21(string msg, int count)
 {
@@ -27,7 +27,7 @@ void Method21(string msg, int count)
     }
 }
 
-// Method21("Текст", 4);
+Method21("Текст", 4);
 // Method21(msg:"Текст", count: 4);
 
 
